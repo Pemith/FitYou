@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Your Schedule</title>
+    <link rel="stylesheet" type="text/css" href="Schedule.css">
+    <script type="text/javascript" src="Shed.js"></script>
+</head>
+
+
+<body>
+    <header class="header"><a href="Main.html"><img src="FitYou.png" class="header-logo"></a></header>   
+    <div id="container">
+    <form name="details">
+        <label>Choose your Gender</label><br>
+        <select id="gender">
+            <option value="1">Male</option>
+            <option value="2">Female</option>        
+        </select>
+        <br><br>
+        <label>Choose your Height(ft)</label><br>
+        <select id="height">
+            <option value="1">Below 5feet</option>
+            <option value="2">5'-5'4"</option>
+            <option value="3">5'5"-5'9"</option>
+            <Option value="4">5'10" and above</Option>            
+        </select>
+        <br><br>
+        <label>Choose your Weight (Kg)</label><br>
+        <select id="weight">
+            <option value="1">45-50</option>
+            <option value="2">51-55</option>
+            <option value="3">56-60</option>
+            <option value="4">61-70</option>
+            <option value="5">71-80</option>
+            <option value="6">81-90</option>
+            <option value="7">Above 90</option>
+        </select>       
+    </form>   
+    
+    <input type="button" value="Get the Schedule" class="button" onclick="getSchedule()">
+    
+    </div>
+    <br>
+    
+</body>
+</html>
